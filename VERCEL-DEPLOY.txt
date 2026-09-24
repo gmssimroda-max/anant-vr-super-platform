@@ -1,0 +1,19 @@
+ANANT Super Platform - Vercel deployment
+==============================================
+
+This package is prepared as a Vite + React project for Vercel.
+
+Build command:
+  npm run build
+
+Output directory:
+  dist
+
+Optional environment variable:
+  GEMINI_API_KEY
+Add it in Vercel Project Settings -> Environment Variables if live ANANT AI is required.
+Without it, the API endpoint returns the built-in demo response.
+
+Important:
+- Firebase is shown as an integration/sample section in the UI; the current source does not contain an actual runtime Firebase import/initialization.
+- Do not put secret API keys in frontend source files.
